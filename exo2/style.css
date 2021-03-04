@@ -1,0 +1,26 @@
+#container
+{
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px blue;
+  padding: 20px;
+}
+.rectangle
+{
+  width: 200px;
+  height: 70px;
+  background: lightblue;
+  border: solid 2px blue;
+}
+p
+{font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  #container
+  {
+      /*display: flex;*/
+      flex-wrap: wrap;
+    }
+  }

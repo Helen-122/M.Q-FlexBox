@@ -1,0 +1,29 @@
+#container
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 200px;
+}
+.carre-vert
+{
+  width: 100px;
+  height: 100px;
+  background: green;
+  border: solid 1px #000000;
+}
+.rectangle-jaune
+{
+  width: 360px;
+  height: 100px;
+  background: yellow;
+  border: solid 1px #000000;
+}
+@media screen and (max-width: 980px){
+  #container
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+}
